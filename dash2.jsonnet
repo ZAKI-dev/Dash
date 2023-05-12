@@ -3,7 +3,7 @@ local grafana = import 'grafonnet/grafana.libsonnet';
 grafana.dashboard.new(
   timezone='utc',
   title='Payment gateway (high-level)',
-  uid='payment-gateway',
+  uid='test',
 )
 .addPanel(
   grafana.text.new(
